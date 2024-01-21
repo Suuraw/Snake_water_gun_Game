@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Snake-Gun-Water</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  Practicing js on browser!!<br><b>Lets see who wins!</b></br>
+  <script>
+const characters = 'swg';
+const length = characters.length;
+let counter = true;
+let result = characters.charAt(Math.floor(Math.random()*length))
+while(counter)
+{
+    let a=prompt("pick any! S for Snake W for enter G for  Gun")
+    if(a==result)
+    {
+        alert("you won")
+        breakk
+    }
+    else if(a!='s'&&a!='w'&&a!='g')
+    alert("invaild argument")
+    else
+    {//wrong concept
+        if(confirm("you want to continue"))
+        counter=true
+        else counter=false
+    }
+}
+
+  </script>
+
+</body>
+
+</html>
